@@ -1,6 +1,6 @@
 import Papaya from "../assets/papaya.png";
 import Mango from "../assets/mango.png";
-import Watermelon from "../assets/Watermelon.png";
+import Watermelon from "../assets/watermelon.png";
 import Mosambi from "../assets/mosambi.png";
 import Sandwich from "../assets/sandwich.png";
 import shake from "../assets/shake.png";
@@ -14,7 +14,7 @@ export const items = [
     img: Watermelon,
     category: "juices",
   },
-  { name: "Mosambi Juice", price: "Rs 39", img:Mosambi, category: "juices" },
+  { name: "Mosambi Juice", price: "Rs 39", img: Mosambi, category: "juices" },
   { name: "Banana Shake", price: "Rs 59", img: shake, category: "shakes" },
   { name: "Mango Shake", price: "Rs 69", img: shake, category: "shakes" },
   { name: "Papaya Shake", price: "Rs 59", img: shake, category: "shakes" },
