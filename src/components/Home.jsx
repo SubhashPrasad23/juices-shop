@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
 
       <div className="fixed w-full px-5 backdrop-blur-md  ">
-        <div className="text-center mt-1.5 ">
+        <div className="text-center my-1.5 ">
           <span className="text-4xl font-semibold font-amatic text-gray-800">
             Go Healthy
           </span>
@@ -21,7 +21,7 @@ const Home = () => {
           <CategoryBtn item={items} setmenu={setMenu} />
         </div>
       </div>
-      <div className="pb-5 px-5 mt-32 ">
+      <div className="pb-5 px-5 mt-28 ">
         <div className="space-y-1.5 ">
           {menu.map((data, index) => (
             <ItemCard
